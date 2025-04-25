@@ -1,18 +1,27 @@
-## Getting Started
+## Задание 2. Магазин игрушек (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Информация о проекте
+Необходимо написать проект, для розыгрыша в магазине игрушек. Функционал
+должен содержать добавление новых игрушек и задания веса для выпадения
+игрушек.
 
-## Folder Structure
+## Как сдавать проект
+  
+  Для сдачи проекта необходимо создать отдельный общедоступный
+репозиторий(Github, gitlub, или Bitbucket). Разработку вести в этом
+репозитории, использовать пул реквесты на изменения. Программа должна
+запускаться и работать, ошибок при выполнении программы быть не должно.
+Программа, может использоваться в различных системах, поэтому необходимо
+разработать класс в виде конструктора
 
-The workspace contains two folders by default, where:
+## Задание
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1) Напишите класс-конструктор у которого принимает минимум 3 строки,
+содержащие три поля id игрушки, текстовое название и частоту выпадения
+игрушки
+2) Из принятой строки id и частоты выпадения(веса) заполнить минимум три
+массива.
+3) Используя API коллекцию: java.util.PriorityQueue добавить элементы в
+коллекцию
+4) Организовать общую очередь 5) Вызвать Get 10 раз и записать результат в
+файл
